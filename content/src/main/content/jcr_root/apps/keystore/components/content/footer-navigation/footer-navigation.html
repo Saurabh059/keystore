@@ -1,0 +1,22 @@
+
+<footer class="footer">
+    <ul class="small-block-grid-1 large-block-grid-5 footer-links">
+        <div data-sly-use.footer="com.k12.keystore.services.FooterHandler" data-sly-unwrap>
+            <div data-sly-repeat="${footer.footerListofMap}" data-sly-unwrap>
+                <li>
+                    <div class="region region-footer1">
+                        <div id="block-menu-menu-high-school-footer-men" class="block block-menu">
+                            <h2>${item['Page']}</h2>
+                            <div class="content">
+                                <ul class="links">
+                                    <li class="first leaf" data-sly-repeat.child="${item['Iterator']}"><a href="${child.path}.html">${child.title}</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </ul>
+
+</footer>

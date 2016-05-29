@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component enabled="true" immediate="true" name="com.k12.keystore.impl.filters.LoggingFilter">
+        <implementation class="com.k12.keystore.impl.filters.LoggingFilter"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Filter"/>
+        </service>
+        <property name="service.ranking" type="Integer" value="-700"/>
+        <property name="sling.filter.scope" value="REQUEST"/>
+        <property name="service.pid" value="com.k12.keystore.impl.filters.LoggingFilter"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.k12.keystore.impl.filters.SampleJava">
+        <implementation class="com.k12.keystore.impl.filters.SampleJava"/>
+        <service servicefactory="false">
+            <provide interface="com.k12.keystore.impl.filters.IAdd"/>
+        </service>
+        <property name="service.label" type="String" value="SampleJava"/>
+        <property name="service.pid" value="com.k12.keystore.impl.filters.SampleJava"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.k12.keystore.impl.filters.SampleNewJava">
+        <implementation class="com.k12.keystore.impl.filters.SampleNewJava"/>
+        <service servicefactory="false">
+            <provide interface="com.k12.keystore.impl.filters.IAdd"/>
+        </service>
+        <property name="service.label" type="String" value="SampleNewjava"/>
+        <property name="service.pid" value="com.k12.keystore.impl.filters.SampleNewJava"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.k12.keystore.impl.filters.NewSampleServlet">
+        <implementation class="com.k12.keystore.impl.filters.NewSampleServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.paths" value="/bin/newservlet"/>
+        <property name="sling.servlet.selectors" value="p1"/>
+        <property name="sling.servlet.methods" value="GET"/>
+        <property name="service.pid" value="com.k12.keystore.impl.filters.NewSampleServlet"/>
+        <reference name="ad" interface="com.k12.keystore.impl.filters.IAdd" cardinality="1..1" policy="static" target="(service.label=SampleJava)" bind="bindAd" unbind="unbindAd"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.k12.keystore.impl.filters.SampleServlet">
+        <implementation class="com.k12.keystore.impl.filters.SampleServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.paths" value="/bin/newservlet"/>
+        <property name="sling.servlet.selectors" value="p1"/>
+        <property name="sling.servlet.extensions" value="json"/>
+        <property name="sling.servlet.methods" value="GET"/>
+        <property name="service.pid" value="com.k12.keystore.impl.filters.SampleServlet"/>
+        <reference name="ad" interface="com.k12.keystore.impl.filters.IAdd" cardinality="1..1" policy="static" target="(service.label=SampleJava)" bind="bindAd" unbind="unbindAd"/>
+    </scr:component>
+</components>

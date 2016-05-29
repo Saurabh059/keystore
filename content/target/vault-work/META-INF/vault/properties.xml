@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>keystore Package</comment>
+<entry key="createdBy">Saurabh</entry>
+<entry key="name">keystore-content</entry>
+<entry key="created">2016-05-11T23:54:24.539+0530</entry>
+<entry key="groupId">com.k12.keystore.cqcommons</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">keystore</entry>
+<entry key="description">Maven Multimodule project for keystore.</entry>
+<entry key="artifactId">keystore-content</entry>
+<entry key="path">/etc/packages/keystore/keystore-content.zip</entry>
+</properties>

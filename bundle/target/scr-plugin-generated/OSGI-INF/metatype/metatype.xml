@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="com.k12.keystore.impl.filters.NewSampleServlet" name="My new new servlet" description="%com.k12.keystore.impl.filters.NewSampleServlet.description">
+        <AD id="sling.servlet.paths" type="String" default="/bin/newservlet" name="%sling.servlet.paths.name" description="%sling.servlet.paths.description"/>
+        <AD id="sling.servlet.selectors" type="String" default="p1" name="%sling.servlet.selectors.name" description="%sling.servlet.selectors.description"/>
+        <AD id="sling.servlet.methods" type="String" default="GET" name="%sling.servlet.methods.name" description="%sling.servlet.methods.description"/>
+    </OCD>
+    <OCD id="com.k12.keystore.impl.filters.SampleServlet" name="My new servlet" description="%com.k12.keystore.impl.filters.SampleServlet.description">
+        <AD id="sling.servlet.paths" type="String" default="/bin/newservlet" name="%sling.servlet.paths.name" description="%sling.servlet.paths.description"/>
+        <AD id="sling.servlet.selectors" type="String" default="p1" name="%sling.servlet.selectors.name" description="%sling.servlet.selectors.description"/>
+        <AD id="sling.servlet.extensions" type="String" default="json" name="%sling.servlet.extensions.name" description="%sling.servlet.extensions.description"/>
+        <AD id="sling.servlet.methods" type="String" default="GET" name="%sling.servlet.methods.name" description="%sling.servlet.methods.description"/>
+    </OCD>
+    <Designate pid="com.k12.keystore.impl.filters.NewSampleServlet">
+        <Object ocdref="com.k12.keystore.impl.filters.NewSampleServlet"/>
+    </Designate>
+    <Designate pid="com.k12.keystore.impl.filters.SampleServlet">
+        <Object ocdref="com.k12.keystore.impl.filters.SampleServlet"/>
+    </Designate>
+</metatype:MetaData>

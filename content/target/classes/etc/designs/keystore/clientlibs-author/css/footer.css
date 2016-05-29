@@ -1,0 +1,87 @@
+
+/* line 1258, ../sass/_custom.scss */
+.footer {
+  background: url("../images/footer_bg.png") repeat top #002141;
+  border-top: 3px solid #CFCECE;
+  padding: 20px 0 20px;
+  color: #fff;
+}
+/* line 1264, ../sass/_custom.scss */
+.footer a {
+  color: #C5C6C8;
+  text-decoration: none;
+}
+/* line 1269, ../sass/_custom.scss */
+.footer .footer-links {
+  margin: 0 auto;
+}
+@media only screen and (min-width: 1280px) {
+  /* line 1269, ../sass/_custom.scss */
+  .footer .footer-links {
+    width: 980px;
+    min-width: 980px;
+  }
+}
+/* line 1277, ../sass/_custom.scss */
+.footer .footer-links > li {
+  float: left;
+}
+/* line 1283, ../sass/_custom.scss */
+.footer .links > li {
+  font-size: 14px;
+  padding-bottom: 14px;
+}
+/* line 1286, ../sass/_custom.scss */
+.footer .links > li a {
+  font-weight: normal;
+}
+/* line 1289, ../sass/_custom.scss */
+.footer .links > li:first-child {
+  font-family: "Fujiyama", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+/* line 1298, ../sass/_custom.scss */
+.footer .copyright {
+  clear: left;
+  font-size: 10px;
+  text-align: center;
+  padding: 0 0 0 10px;
+  color: #C5C6C8;
+}
+
+/* line 1377, ../sass/_custom.scss */
+.footer .footer-links li h2 {
+  font-family: "Fujiyama", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #C5C6C8;
+}
+
+/* line 1386, ../sass/_custom.scss */
+.footer .footer-links li.leaf {
+  list-style: none;
+}
+
+/* line 1390, ../sass/_custom.scss */
+.footer .footer-links .links {
+  margin-left: 0;
+}
+
+/* line 1394, ../sass/_custom.scss */
+.footer .footer-links .links li:first-child {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: normal;
+  text-transform: inherit;
+}
+
+  .large-block-grid-5 > li {
+    width: 16.6%;
+    padding: 0 0.625em 1.25em;
+  }
+    .large-block-grid-5 > li:nth-of-type(6n+1) {
+    clear: both;
+  }
