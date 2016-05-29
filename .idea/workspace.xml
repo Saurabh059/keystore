@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d56d2964-2ba8-4c54-8d46-653cebdb3b8a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bundle/src/main/java/com/k12/keystore/impl/filters/NewSampleServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle/target/classes/com/k12/keystore/impl/HelloServiceImpl.class" afterPath="$PROJECT_DIR$/bundle/target/classes/com/k12/keystore/impl/HelloServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle/target/classes/com/k12/keystore/services/FooterHandler.class" afterPath="$PROJECT_DIR$/bundle/target/classes/com/k12/keystore/services/FooterHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle/target/keystore-bundle-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/bundle/target/keystore-bundle-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/keystore/install/keystore-bundle-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/keystore/install/keystore-bundle-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/target/classes/apps/keystore/install/keystore-bundle-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/content/target/classes/apps/keystore/install/keystore-bundle-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/target/keystore-content-1.0-SNAPSHOT.zip" afterPath="$PROJECT_DIR$/content/target/keystore-content-1.0-SNAPSHOT.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle/keystore-bundle.iml" afterPath="$PROJECT_DIR$/bundle/keystore-bundle.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle/src/main/java/com/k12/keystore/impl/HelloServiceImpl.java" afterPath="$PROJECT_DIR$/bundle/src/main/java/com/k12/keystore/impl/HelloServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle/src/main/java/com/k12/keystore/services/FooterHandler.java" afterPath="$PROJECT_DIR$/bundle/src/main/java/com/k12/keystore/services/FooterHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/bundle/target/classes/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/bundle/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/bundle/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/bundle/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/bundle/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml" afterPath="$PROJECT_DIR$/bundle/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml" afterPath="$PROJECT_DIR$/bundle/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle/target/surefire-reports/TEST-com.k12.keystore.SimpleUnitTest.xml" afterPath="$PROJECT_DIR$/bundle/target/surefire-reports/TEST-com.k12.keystore.SimpleUnitTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle/target/surefire-reports/com.k12.keystore.SimpleUnitTest.txt" afterPath="$PROJECT_DIR$/bundle/target/surefire-reports/com.k12.keystore.SimpleUnitTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/keystore-content.iml" afterPath="$PROJECT_DIR$/content/keystore-content.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/keystore/templates/generic/.content.xml" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/keystore/templates/generic/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/target/classes/apps/keystore/templates/generic/.content.xml" afterPath="$PROJECT_DIR$/content/target/classes/apps/keystore/templates/generic/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/content/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/target/vault-work/META-INF/vault/config.xml" afterPath="$PROJECT_DIR$/content/target/vault-work/META-INF/vault/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/target/vault-work/META-INF/vault/definition/.content.xml" afterPath="$PROJECT_DIR$/content/target/vault-work/META-INF/vault/definition/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/target/vault-work/META-INF/vault/filter.xml" afterPath="$PROJECT_DIR$/content/target/vault-work/META-INF/vault/filter.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/target/vault-work/META-INF/vault/properties.xml" afterPath="$PROJECT_DIR$/content/target/vault-work/META-INF/vault/properties.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/target/vault-work/META-INF/vault/settings.xml" afterPath="$PROJECT_DIR$/content/target/vault-work/META-INF/vault/settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keystore.iml" afterPath="$PROJECT_DIR$/keystore.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="keystore.iws" />
     <ignored path=".idea/workspace.xml" />
